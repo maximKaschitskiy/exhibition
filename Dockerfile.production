@@ -1,0 +1,16 @@
+FROM node:16
+ENV APP_ROOT /app
+#ENV NPM_CONFIG_PRODUCTION false
+#ENV NITRO_PRESET node_cluster
+
+WORKDIR ${APP_ROOT}
+#COPY package.json ${APP_ROOT}/package.json
+#COPY package-lock.json ${APP_ROOT}/package-lock.json
+COPY . .
+RUN npm install --production=false --legacy-peer-deps && npm cache clean --force
+
+COPY . .
+
+ENV HOST 0.0.0.0
+EXPOSE 3000
+CMD npm run prod

@@ -1,0 +1,104 @@
+$xs: 321px;
+$sm: 741px;
+$md: 1025px;
+$lg: 1321px;
+
+$sm-space: 12px;
+$md-space: 32px;
+$lg-space: 48px;
+
+@mixin sm-title {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+@mixin md-title {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+@mixin lg-title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+@mixin xs-caption {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+@mixin sm-caption {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+@mixin md-caption {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@mixin xm-caption {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+@mixin lg-caption {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+@mixin xl-caption {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+@mixin xxl-caption {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+@mixin sm-button-text {
+    color: var(--light-greyscale-text-primary, #04091D);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+@mixin lg-button-text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+@mixin sm-button-space {
+    padding: 10px 0;
+    width: 100%;
+    gap: 19px;
+}
+
+@mixin lg-button-space {
+    padding: 12px 60px;
+    gap: 8px;
+}
