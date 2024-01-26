@@ -56,10 +56,6 @@
     </section>
 </template>
 
-<script>
-
-</script>
-
 <style scoped lang="scss">
 .ecosystem {
     display: flex;

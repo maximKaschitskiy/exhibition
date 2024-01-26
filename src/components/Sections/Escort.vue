@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
     <section class="escort">
         <div class="escort__content">

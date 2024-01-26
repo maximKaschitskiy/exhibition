@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import available from '../Blocks/available.vue';
-import unavailable from '../Blocks/unavailable.vue';
+  import available from '../Blocks/available.vue';
+  import unavailable from '../Blocks/unavailable.vue';
 </script>
 
 <template>

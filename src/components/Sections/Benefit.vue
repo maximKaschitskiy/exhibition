@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
     <section class="benefit">
         <h5 class="benefit__title">Открывая салон под брендом Haier KitchenLab, вы получаете:</h5>

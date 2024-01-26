@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
     <section class="pluses-bar">
         <div class="pluses-bar__card">

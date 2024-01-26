@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
     <div class="cards-bar">
         <div class="cards-bar__card">

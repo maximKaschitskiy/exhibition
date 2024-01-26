@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
     <section class="footer">
         <img class="footer__bg-image" src="../../assets/pavilion.png">
